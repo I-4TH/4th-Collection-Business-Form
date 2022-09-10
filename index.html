@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-lg-6 mb-3">
                     <label class="form-label">Email address</label>
-                    <input type="email" class="form-control" name="Email Address" placeholder="We'll never share your email with anyone else">
+                    <input type="email" class="form-control" name="Email Address" placeholder="We'll never share your email">
                 </div>
                 <div class="col-lg-6 mb-3">
                     <label class="form-label">Name</label>
@@ -51,16 +51,16 @@
                     <div class="row">
                         <div class="col-lg-6 mb-3 ">
                             <label class="form-label">Phone Number 1</label>
-                            <input type="text" inputmode="numeric" name="Contact1" class="form-control">
+                            <input type="number" inputmode="numeric" name="Contact1" class="form-control">
                         </div>
                         <div class="col-lg-6 mb-3">
                             <label class="form-label">Phone Number 2</label>
-                            <input type="number" class="form-control" name="Contact2" placeholder="It is best to drop a second number to avoid missing delivery">
+                            <input type="number" class="form-control" name="Contact2" placeholder="Optional">
                         </div>
                     </div>
                     <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" name="Address" class="form-label">Delivery Location</label>
-                        <textarea class="form-control" placeholder="House Number, Street, City and State."></textarea>
+                        <label for="exampleFormControlTextarea1" class="form-label">Delivery Location</label>
+                        <input type="text" class="form-control" name="Address" placeholder="House Number, Street, City and State."></input>
                     </div>
                     <button type="submit" class="btn btn-dark" value="Send Now">Submit</button>
                 </form>
