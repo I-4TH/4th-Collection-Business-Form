@@ -1,10 +1,12 @@
 * {
     text-align: left;
     font-family: 'Josefin Sans', sans-serif;
-    /* font-size: 1.1rem; */
     background-color: #B4A5A5;
     color: #000000;
 }
+
+
+/* Arrow removal for numeric input type*/
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -27,6 +29,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .customer-details-text {
+    text-align: center;
     font-size: 2.5rem;
     margin: 3% 0 0%;
 }
@@ -46,6 +49,10 @@ input[type=number]::-webkit-outer-spin-button {
 .second-hr {
     margin-top: 3%;
     margin-bottom: 3%;
+}
+
+.btn {
+    text-align: center;
 }
 
 @media(max-width: 768px) {
