@@ -62,11 +62,11 @@ input[type=number]::-webkit-outer-spin-button {
     }
     .customer-details-text {
         margin: 5% 0;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     .appreciation-text {
-        font-size: 1.3rem;
-        margin: 0 8%;
+        font-size: 1.2rem;
+        margin: 0 5%;
         text-align: center;
     }
     .first-hr,
