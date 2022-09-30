@@ -1,77 +1,103 @@
-* {
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    background-color: #B4A5A5;
-    color: #000000;
-}
-
-
-/* Arrow removal for numeric input type*/
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-}
-
-.entire-content {
-    margin: 0 10%;
-    text-align: left;
-}
-
-.brand-name {
-    font-family: 'Dongle', sans-serif;
-    font-size: 2rem;
-    text-align: center;
-    margin-top: 2%;
-    color: #F9F3EE;
-}
-
-.customer-details-text {
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 3% 0 0%;
-}
-
-.appreciation-text {
-    margin: 3% 25%;
-    font-size: 2rem;
-    text-align: center;
-    color: #F9F3EE;
-}
-
-.all-hr {
-    margin: 5% 0 0;
-}
-
-.first-hr,
-.second-hr {
-    margin-top: 3%;
-    margin-bottom: 3%;
-}
-
-.btn {
-    text-align: center;
-}
-
-@media(max-width: 768px) {
-    .brand-name {
-        margin-top: 5%;
-        font-size: 1.5rem;
-    }
-    .customer-details-text {
-        margin: 5% 0;
-        font-size: 1.6rem;
-    }
-    .appreciation-text {
-        font-size: 1.2rem;
-        margin: 0 2%;
-        text-align: center;
-    }
-    .first-hr,
-    .second-hr {
-        margin-top: 3%;
-        margin-bottom: 3%;
-    }
-}
+         * {
+             text-align: left;
+             font-family: 'Josefin Sans', sans-serif;
+             background-color: #B4A5A5;
+             color: #000000;
+         }
+         /* Arrow removal for numeric input type*/
+         
+         input[type=number]::-webkit-inner-spin-button,
+         input[type=number]::-webkit-outer-spin-button {
+             -webkit-appearance: none;
+             -moz-appearance: none;
+             appearance: none;
+         }
+         
+         .entire-content {
+             margin: 0 10%;
+             text-align: left;
+         }
+         
+         .brand-name {
+             font-family: 'Dongle', sans-serif;
+             font-size: 2rem;
+             text-align: center;
+             margin-top: 2%;
+             color: #F9F3EE;
+         }
+         
+         .customer-details-text {
+             text-align: center;
+             font-size: 2.5rem;
+             margin: 3% 0 0%;
+         }
+         
+         .appreciation-text {
+             margin: 3% 25%;
+             font-size: 2rem;
+             text-align: center;
+             color: #F9F3EE;
+         }
+         
+         .all-hr {
+             margin: 5% 0 0;
+         }
+         
+         .first-hr,
+         .second-hr {
+             margin-top: 3%;
+             margin-bottom: 3%;
+         }
+         
+         .btn {
+             text-align: center;
+         }
+         /* Media queries (Mobile Phones) */
+         
+         @media(max-width: 640px) {
+             .entire-content {
+                 margin: 0 5%;
+             }
+             .brand-name {
+                 margin-top: 5%;
+                 font-size: 1.5rem;
+             }
+             .customer-details-text {
+                 margin: 5% 0;
+                 font-size: 1.5rem;
+             }
+             .appreciation-text {
+                 font-size: 1.2rem;
+                 margin: 0 2%;
+             }
+         }
+         /* Tablets */
+         
+         @media(min-width: 641px) {
+             .entire-content {
+                 margin: 0 8%;
+             }
+             .customer-details-text {
+                 margin: 3% 0;
+                 font-size: 1.8rem;
+             }
+             .appreciation-text {
+                 font-size: 1.6rem;
+                 margin: 0 2%;
+             }
+         }
+         /* Laptops & Desktops */
+         
+         @media(min-width:1025px) {
+             .entire-content {
+                 margin: 0 20%;
+             }
+             .customer-details-text {
+                 margin: 3% 0;
+                 font-size: 1.8rem;
+             }
+             .appreciation-text {
+                 font-size: 1.8rem;
+                 margin: 0 2%;
+             }
+         }
